@@ -1,0 +1,167 @@
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 5rem;
+}
+
+body {
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.bg-ggreen {
+background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+.logo {
+  width: 4rem;
+}
+
+
+
+
+header {
+  background-image: url('../img/bg-pink.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.quien-soy {
+  height: 90vh;
+  display: flex;
+
+}
+
+
+.texto-quien-soy{
+  width: 100%;
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+}
+
+
+
+.p-quiensoy {
+  margin-top: 1rem;
+  width: 100%;
+  justify-content: center;
+  font-size: 2rem;
+  display: flex;
+}
+
+.titulo-quiensoy {
+  font-size: 5rem;
+}
+.text-navbar {
+  font-size: 1.5rem;
+}
+.subtitulo {
+  font-size: 3rem;
+}
+
+.btn-grey {
+  background-color: #343535;
+}
+
+.btn-pink {
+  background-color: #FE726F;
+}
+
+.experiencia {
+
+}
+.proyectos-elementos {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+
+.carousel-slide {
+  width: 50%;
+}
+
+.card-img-top {
+  width: 50%;
+  margin-left: 25%;
+}
+
+.card-title, .modal-title {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.modal-img {
+  width: 100%;
+}
+
+
+/* .sticky {
+position: -webkit-sticky;
+position: sticky;
+top: 0;
+background-color: yellow;
+padding: 50px;
+font-size: 20px;
+} */
+
+.typeform {
+  height: 67vh;
+}
+
+@media screen and (max-width: 600px)  {
+
+.fixed-top {
+  margin: 0;
+  width: 100vw;
+}
+
+.titulo-quiensoy {
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+.texto-quien-soy {
+  display: block;
+}
+
+.texto-quien-soy2 {
+  display: block;
+}
+
+.titulo-experiencia {
+  font-size: 3.5rem;
+  margin-top: -132px;
+}
+
+.p-quiensoy{
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+.quien-soy {
+  display: block;
+  margin-top: 75px;
+  text-align: justify;
+}
+
+.titulo-quehago {
+  margin-top: -360px;
+}
+.car1 {
+  height: 667px;
+}
+
+.proyectos{
+  height: 667px;
+}
+ }
